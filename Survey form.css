@@ -1,0 +1,122 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.surveyform-block {
+    padding-bottom: 55px;
+}
+
+#survey-form {
+    padding: 2rem; /* Внутренние отсупы всей формы: выравнивают элементы внутри нее */
+    background-color: rgb(50, 50, 59);
+    color: white;
+    max-width: 600px;
+    min-width: 300px;
+    width: 60vw; /* % от ширины общей области просмотра (в зависимости от типа устройства) !без этого не масштабируется форма! */
+    margin: 0 auto; /* Внешние отступы: "0" - для top/bottom и "auto" для left/right */
+    border-radius: 0.25rem;
+    opacity: 0.9;
+}
+
+/*.friend-reocmendation-buttons-block {
+
+}*/
+
+.radio-b {
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+label, legend {    
+    font-size: 1.15rem;
+    vertical-align: text-bottom;
+    margin-bottom: 10px;
+}
+
+.form-group { /* Отдельно в каждом div: Name, age и т.д. (целиком область, не только белое поле) */
+    /*border: solid 4px green;*/
+    padding: 0 15px 15px 15px; /* по часовой стрелке: сверху, справа, снизу, слева*/
+}
+
+.form-control { /* Белые поля для заполнения: Name, Age и т.д.*/
+    /*border: solid 4px blue;*/
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox-buttons {
+    display: block;
+    margin-bottom: 5px;    
+}
+
+.checkbox-improvements {
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+
+/*.checkbox-improvements {  ////////////////////Вопросы 
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    width: 4%;
+    vertical-align: middle;    
+    margin-right: 0;
+}*/
+
+#textarea { 
+    display: block;
+    width: 100%;
+    max-width: 99%;
+    min-width: 99%;
+    min-height: 4.7rem;
+    font-size: 1rem;
+}
+.submit-button {
+    display: block;    
+    width: 100%;
+    height: 35px;
+    background-color: rgb(51, 151, 51);
+    border: none;
+    font-size: 1rem;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgb(63, 175, 63);
+}
+
+.submit-button:active {
+    background-color: rgb(85, 219, 85);
+}
