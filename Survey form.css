@@ -25,14 +25,14 @@ body {
 
 #survey-form {
     padding: 2rem; /* Внутренние отсупы всей формы: выравнивают элементы внутри нее */
-    background-color: rgb(50, 50, 59);
+    background-color: rgba(50, 50, 59, 0.85);
     color: white;
     max-width: 600px;
     min-width: 300px;
     width: 60vw; /* % от ширины общей области просмотра (в зависимости от типа устройства) !без этого не масштабируется форма! */
     margin: 0 auto; /* Внешние отступы: "0" - для top/bottom и "auto" для left/right */
     border-radius: 0.25rem;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
 }
 
 /*.friend-reocmendation-buttons-block {
